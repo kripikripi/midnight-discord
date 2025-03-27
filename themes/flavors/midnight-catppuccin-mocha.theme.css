@@ -27,8 +27,8 @@ body {
     --dms-icon-svg-transition: 0.4s ease; /* transition for the dms icon */
 
     /* top bar options */
-    --move-top-bar-buttons: off; /* turn on to move inbox button to the server list (recommend setting top bar height to 24px) */
-    --custom-app-top-bar-height: 32px; /* height of the titlebar/top bar (default is 36px)*/
+    --move-top-bar-buttons: on; /* turn on to move inbox button to the server list (recommend setting top bar height to 24px) */
+    --custom-app-top-bar-height: 24px; /* height of the titlebar/top bar (default is 36px)*/
 
     /* window controls */
     --custom-window-controls: on; /* turn off to use discord default window controls */
@@ -55,7 +55,7 @@ body {
     /* NOTE: TO USE TRANSPARENCY/BLUR, YOU MUST HAVE TRANSPARENT BG COLORS. FOR EXAMPLE: --bg-4: hsla(220, 15%, 10%, 0.7); */
     --transparency-tweaks: off; /* turn on to remove some elements for better transparency */
     --remove-bg-layer: off; /* turn on to remove the base --bg-3 layer for use with window transparency (WILL OVERRIDE BACKGROUND IMAGE) */
-    --panel-blur: off; /* turn on to blur the background of panels */
+    --panel-blur: off; /* turn on to blur the background of panels on
     --blur-amount: 12px; /* amount of blur */
     --bg-floating: var(--bg-3); /* you can set this to a more opaque color if floating panels look too transparent */
 
@@ -70,7 +70,7 @@ body {
 
 /* color options */
 :root {
-    --colors: on; /* turn off to use discord default colors */
+    --colors: on; /* turn off to use discord default colors *//
 
     /* text colors */
     --text-0: var(--bg-3); /* text on colored elements */
@@ -110,9 +110,9 @@ body {
     --offline: var(--text-4); /* change to #83838b for default offline color */
 
     /* border colors */
-    --border-light: hsl(230, 15%, 40%, 0.1); /* light border color */
-    --border: hsl(230, 15%, 40%, 0.2); /* normal border color */
-    --button-border: hsl(0, 0%, 100%, 0.1); /* neutral border color of buttons */
+    --border-light: transparent; /* light border color */
+    --border: transparent; /* normal border color */
+    --button-border: transparent; /* neutral border color of buttons */
 
     /* base colors */
     --red-1: hsl(343deg, 81%, 80%);
